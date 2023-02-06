@@ -1,0 +1,14 @@
+.header__lang_link {
+  margin-right: 18px;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+  text-align: right;
+  color: #ffffff;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}

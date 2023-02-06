@@ -1,0 +1,13 @@
+.photo-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 300px 16px 300px;
+    grid-template-columns: repeat(2, 300px);
+    -ms-grid-rows: 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 16px;
+    padding: 92px 0;
+  }

@@ -1,0 +1,456 @@
+@import url(/fonts/font.css);
+
+.body {
+  margin: 0;
+  padding: 0;
+  background-color: #2a2c2f;
+}
+
+// ++++++++++++++++++++++++++++++++++++++++++++++  Wrapper  +++++++++++++++++++++++++++++++++++ //
+.wrapper {
+  color: #ffffff;
+  font-family: "Inter", Arial, sans-serif;
+
+  &__container {
+    min-width: 320px;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(/images/1280.jpg);
+  }
+}
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++  Header  +++++++++++++++++++++++++++++++++++ //
+.header {
+  max-width: 1184px;
+  min-width: 288px;
+  min-height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: auto;
+  padding: 28px 48px 56px;
+  // .header__logo
+
+  &__logo {
+  }
+
+  // .header__lang-links
+
+  &__lang-links {
+  }
+
+  // .header__lang
+
+  &__lang {
+    // .header__lang_link
+
+    &_link {
+      margin-right: 18px;
+      text-decoration: none;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      /* identical to box height, or 117% */
+      text-align: right;
+      color: #ffffff;
+      transition: opacity 0.2s;
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+.link {
+  // .link__active
+
+  &__active {
+    text-decoration-line: underline;
+  }
+}
+
+.main {
+}
+
+// ++++++++++++++++++++++++++++++++++++++++++++++  LEAD  +++++++++++++++++++++++++++++++++++ //
+.lead {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 984px;
+  padding-bottom: 92px;
+
+  // .lead__title
+
+  &__title {
+    font-family: "Inter";
+    font-size: 96px;
+    line-height: 100px;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 32px;
+    max-width: 720px;
+  }
+
+  // .lead__subtitle
+
+  &__subtitle {
+    font-family: "Inter";
+    font-size: 30px;
+    line-height: 36px;
+    font-style: normal;
+    font-weight: 400;
+    /* or 120% */
+    text-align: center;
+    padding-bottom: 64px;
+    margin: 0;
+    max-width: 640px;
+  }
+
+  // .lead__images
+
+  &__images {
+    max-width: 984px;
+    position: relative;
+  }
+
+  // .lead__image
+
+  &__image-bg {
+    max-width: 984px;
+    width: 100%;
+    position: relative;
+  }
+
+  &__image-nav {
+    max-width: 937.09px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 90.21px;
+    left: 23.27px;
+  }
+
+  // .lead__caption
+
+  &__caption {
+    font-size: 10px;
+    line-height: 14px;
+    font-style: normal;
+    font-weight: 400;
+    /* identical to box height, or 140% */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding-top: 8px;
+    align-self: start;
+    margin: 0;
+  }
+}
+
+// ++++++++++++++++++++++++++++++++++++++++++++++  INTRO  +++++++++++++++++++++++++++++++++++ //
+.intro {
+  margin-left: 148px;
+  max-width: 690px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  // .intro__title
+
+  &__title {
+    font-family: "Inter";
+    font-size: 54px;
+    line-height: 58px;
+    font-style: normal;
+    font-weight: 900;
+    /* identical to box height, or 107% */
+    padding-bottom: 40px;
+    width: 100%;
+    margin: 0;
+  }
+
+  // .intro__text
+
+  &__text {
+    font-family: "Inter";
+    font-size: 16px;
+    line-height: 163%;
+    font-style: normal;
+    font-weight: 400;
+    /* or 26px */
+    margin: 0;
+    padding-bottom: 33px;
+  }
+
+  // .intro__list
+
+  &__list {
+    font-family: "Inter";
+    font-size: 12px;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: 700;
+    /* or 150% */
+    margin: 0;
+    padding: 0;
+    align-self: start;
+    list-style: none;
+  }
+}
+
+// ++++++++++++++++++++++++++++++++++++++++++++++  Photo  +++++++++++++++++++++++++++++++++++ //
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 284px);
+  justify-content: center;
+  gap: 16px;
+  padding: 92px 0;
+
+  // .photo-grid__item
+  &__item {
+    width: 100%;
+  }
+}
+
+// ++++++++++++++++++++++++++++++++++++++++++++++  Places  +++++++++++++++++++++++++++++++++++ //
+.places {
+  max-width: 984px;
+  margin: auto;
+  padding-bottom: 80px;
+}
+.place {
+  display: grid;
+  grid-template-columns: minmax(320px, 460px) minmax(320px, 484px);
+  column-gap: 40px;
+  row-gap: 48px;
+  padding-top: 80px;
+
+  &:first-child {
+    padding-top: 0;
+  }
+
+  // .place__title
+
+  &__title {
+    font-family: "Inter";
+    font-size: 72px;
+    line-height: 76px;
+    font-style: normal;
+    font-weight: 900;
+    /* or 106% */
+    color: #ffffff;
+    margin: 0;
+    width: 100%;
+  }
+
+  // .place__image
+
+  &__image {
+    grid-column-start: 1;
+    max-width: 460px;
+    width: 100%;
+  }
+
+  // .place__website
+
+  &__website {
+    align-self: end;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    margin: 0;
+  }
+
+  &__disc {
+  }
+
+  // .place__paragraph
+
+  &__paragraph {
+    font-family: "Inter";
+    font-size: 18px;
+    line-height: 163%;
+    font-style: normal;
+    font-weight: 400;
+    /* or 29px */
+    color: #ffffff;
+    &:first-child {
+      padding: 0;
+      padding-top: 26px;
+      grid-column-start: 2;
+      width: 100%;
+      margin: 0;
+    }
+  }
+}
+.website {
+  max-width: 456px;
+
+  // .website__url-heading
+
+  &__url-heading {
+    font-family: "Inter";
+    font-size: 12px;
+    line-height: 12px;
+    font-style: normal;
+    font-weight: 400;
+    /* identical to box height, or 100% */
+    letter-spacing: 2px;
+    color: #aaaaaa;
+    padding-bottom: 12px;
+  }
+
+  // .website__link
+
+  &__link {
+    font-family: "Inter";
+    font-size: 18px;
+    line-height: 22px;
+    font-style: normal;
+    font-weight: 400;
+    /* identical to box height, or 122% */
+    text-decoration-line: underline;
+    color: #ffffff;
+    transition: opacity 0.2s;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+// ++++++++++++++++++++++++++++++++++++++++++++++  COVER  +++++++++++++++++++++++++++++++++++ //
+.cover {
+  padding-bottom: 92px;
+
+  &__container {
+    max-width: 1184px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  // .cover__title
+
+  &__title {
+    margin: auto;
+    z-index: 1;
+    position: absolute;
+    max-width: 560px;
+    top: 245px;
+    left: 312px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    /* or 106% */
+    text-align: center;
+  }
+
+  // .cover__subtitle
+
+  &__subtitle {
+    margin: 0;
+    z-index: 1;
+    position: absolute;
+    max-width: 360px;
+    bottom: 245px;
+    left: 412px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+    text-align: center;
+  }
+
+  // .cover__background
+
+  &__background {
+    width: 100%;
+    background: #2a2c2f;
+    opacity: 0.3;
+    margin: auto;
+  }
+}
+
+// ++++++++++++++++++++++++++++++++++++++++++++++  FOOTER  +++++++++++++++++++++++++++++++++++ //
+.footer {
+  max-width: 1184px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  padding-bottom: 24px;
+
+  // .footer__links
+
+  &__links {
+  }
+
+  // .footer__link
+
+  &__link {
+    margin-left: 18px;
+    text-decoration: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+    color: #ffffff;
+    transition: opacity 0.2s;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  // .footer__copyring
+
+  &__copyring {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+    text-align: right;
+  }
+}
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++  MEDIA  +++++++++++++++++++++++++++++++++++ //
+
+@media (max-width: 1000px) {
+  .wrapper__container {
+    max-width: 800px;
+  }
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(6, 1fr);
+    justify-content: center;
+    gap: 16px;
+    padding: 92px 0;
+  }
+}
+
+
