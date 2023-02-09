@@ -90,17 +90,17 @@
 }
 .lead__images {
   position: relative;
-  margin-top: -90px;
 }
 .lead__image-bg {
   width: 100%;
-  margin: 10% auto 0;
+  margin: auto;
 }
 .lead__image-nav {
   max-width: 937.09px;
   width: 100%;
   position: absolute;
   margin: auto;
+  padding-bottom: 18%;
   z-index: 1;
   top: 0;
   left: 0;
