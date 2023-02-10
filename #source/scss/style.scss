@@ -11,8 +11,8 @@
       @content;
   }
 }
-@mixin _767 {
-  @media (max-width: 767px){
+@mixin _768 {
+  @media (max-width: 768px){
       @content;
   }
 }
@@ -38,7 +38,7 @@
   color: #ffffff;
   font-family: "Inter", Arial, sans-serif;
   font-size: 18px;
-  @include _767(){
+  @include _768(){
     font-size: 16px;
   }
 }
@@ -59,14 +59,14 @@
   justify-content: space-between;
   align-items: flex-end;
   padding: 28px 48px 56px;
-  @include _767(){
+  @include _768(){
     padding: 16px 16px 48px;
   }
 
   // .header__logo
 
   &__logo {
-    @include _767(){
+    @include _768(){
       max-width: 142px;
     }
   }
@@ -94,7 +94,7 @@
     &:last-child {
       margin-right: 0;
     }
-    @include _767(){
+    @include _768(){
       font-size: 18px;
       line-height: 20px;
     }
@@ -110,7 +110,7 @@
 .main {
   display: grid;
   row-gap: 90px;
-  @include _767(){
+  @include _768(){
     row-gap: 64px;
   }
 }
@@ -133,7 +133,7 @@
     margin: 0;
     padding-bottom: 32px;
     max-width: 720px;
-    @include _767 {
+    @include _768 {
       padding-bottom: 16px;
       font-size: 40px;
       line-height: 44px;
@@ -154,7 +154,7 @@
     padding-bottom: 64px;
     margin: 0;
     max-width: 640px;
-    @include _767(){
+    @include _768(){
       padding-bottom: 40px;
       font-size: 16px;
       line-height: 20px;
@@ -165,7 +165,7 @@
 
   &__images {
     position: relative;
-    @include _767(){
+    @include _768(){
       max-width: 320px;
       width: 100%;
     }
@@ -227,7 +227,7 @@
     padding-bottom: 40px;
     width: 100%;
     margin: 0;
-    @include _767(){
+    @include _768(){
       font-size: 32px;
       line-height: 35px;
     }
@@ -281,7 +281,7 @@
   @include _1024(){
     gap: 14px;
   }
-  @include _767(){
+  @include _768(){
     width: calc(100% - 2*16px);
     gap: 16px;
   }
@@ -294,16 +294,24 @@
 .places {
   display: grid;
   gap: 80px;
+  @include _768(){
+    gap: 73px;
+  }
 }
 .place {
-
-  // !Так нельзя! Исправить!
+  max-width: 984px;
   margin: auto;
-  width: 984px;
   display: grid;
   grid-template-columns: 460px 1fr;
   gap: 26px 40px;
   // .place__title
+  @include _768(){
+    grid-template-columns: 340px 1fr;
+    gap: 25px 28px;
+  }
+  @include _350(){
+    grid-template-columns: 1fr;
+  }
 
   &__title {
     font-family: inherit;
@@ -313,6 +321,10 @@
     font-weight: 900;
     color: inherit;
     margin: 0;
+    @include _768(){
+      font-size: 42px;
+      line-height: 46px;
+    }
   }
 
   // .place__image
@@ -347,6 +359,9 @@
     &:last-child{
       margin: 0;
     }
+    @include _768(){
+      font-size: 16px;
+    }
   }
 }
 .website {
@@ -362,6 +377,9 @@
     letter-spacing: 2px;
     color: #aaaaaa;
     padding-bottom: 12px;
+    @include _768(){
+      line-height: 12px;
+    }
   }
 
   // .website__link
@@ -379,9 +397,7 @@
   }
 }
 .cover {
-  display: none;
-
-  // .cover__link
+ // .cover__link
 
   &__link {
   }
