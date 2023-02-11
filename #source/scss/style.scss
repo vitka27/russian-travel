@@ -40,6 +40,7 @@
     font-size: 16px;
   }
 }
+//!____________________________ wrapper ____________________________
 
 .wrapper {
   max-width: 1280px;
@@ -52,6 +53,8 @@
   // background-image: url(/images/1280.jpg);
   // background-image: url(/images/1280.jpg);
 }
+//!____________________________ header ____________________________
+
 .header {
   max-width: 1184px;
   display: flex;
@@ -113,6 +116,8 @@
     text-decoration-line: underline;
   }
 }
+//!____________________________ main ____________________________
+
 .main {
   display: grid;
   row-gap: 90px;
@@ -122,6 +127,8 @@
   &__container {
   }
 }
+//!____________________________ lead ____________________________
+
 .lead {
   display: flex;
   flex-direction: column;
@@ -222,6 +229,8 @@
     margin: 0;
   }
 }
+//!____________________________ intro ____________________________
+
 .intro {
   margin: auto;
   display: flex;
@@ -229,8 +238,11 @@
   align-items: start;
 
   &__container {
-    max-width: calc(100% - 16px * 2);
+    max-width: calc(100% - 146px * 2);
     width: 100%;
+    @include _767(){
+      max-width: calc(100% - 16px * 2);
+    }
   }
   // .intro__title
 
@@ -242,7 +254,6 @@
     font-weight: 900;
     /* identical to box height, or 107% */
     padding-bottom: 40px;
-    width: 100%;
     margin: 0;
     @include _767() {
       font-size: 32px;
@@ -253,6 +264,7 @@
   // .intro__text
 
   &__text {
+    max-width: 690px;
     font-family: inherit;
     font-size: 16px;
     line-height: 163%;
@@ -278,6 +290,7 @@
     list-style: none;
   }
 }
+//!____________________________ photo-grid ____________________________
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
@@ -297,6 +310,8 @@
     max-width: 100%;
   }
 }
+
+//!____________________________ place ____________________________
 .place {
   margin: auto;
   display: grid;
@@ -320,7 +335,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: 460px 1fr;
-    gap: 26px 40px;
+    gap: 48px 40px;
     // .place__title
     @include _1024(){
       grid-template-columns: 352px 1fr;
@@ -420,6 +435,8 @@
     color: inherit;
   }
 }
+//!____________________________ cover ____________________________
+
 .cover {
   // .cover__link
 
@@ -513,6 +530,8 @@
     }
   }
 }
+
+//!____________________________ footer ____________________________
 .footer {
   display: flex;
   margin: auto;
