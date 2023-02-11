@@ -9,8 +9,8 @@
 }
 @media (max-width: 1024px) {
   .place__item {
-    -ms-grid-columns: 352px 1fr;
-    grid-template-columns: 352px 1fr;
+    -ms-grid-columns: 440px 1fr;
+    grid-template-columns: 440px 1fr;
   }
 }
 @media (max-width: 767px) {
