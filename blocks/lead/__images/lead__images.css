@@ -1,0 +1,8 @@
+.lead__images {
+  position: relative;
+}
+@media (max-width: 1024px) {
+  .lead__images {
+    width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+.lead__caption {
+  font-size: 10px;
+  line-height: 14px;
+  font-style: normal;
+  font-weight: 400;
+  /* identical to box height, or 140% */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding-top: 8px;
+  align-self: start;
+    -ms-flex-item-align: start;
+    -ms-grid-row-align: start;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .lead__caption {
+    padding-left: 16px;
+  }
+}

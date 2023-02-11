@@ -1,0 +1,11 @@
+.place {
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  gap: 80px;
+}
+@media (max-width: 767px) {
+  .place {
+    gap: 64px;
+  }
+}

@@ -1,0 +1,7 @@
+.wrapper {
+  max-width: 1280px;
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  /* background-image: url(../../images/1024.png); */
+}

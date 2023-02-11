@@ -1,0 +1,25 @@
+.lead__subtitle {
+  font-family: inherit;
+  font-size: 30px;
+  line-height: 36px;
+  font-style: normal;
+  font-weight: 400;
+  /* or 120% */
+  text-align: center;
+  padding-bottom: 64px;
+  margin: 0;
+  max-width: 640px;
+}
+@media (max-width: 1024px) {
+  .lead__subtitle {
+    padding-bottom: 56px;
+  }
+}
+@media (max-width: 767px) {
+  .lead__subtitle {
+    max-width: 288px;
+    padding-bottom: 40px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

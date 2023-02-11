@@ -1,0 +1,22 @@
+.place__item {
+  max-width: 984px;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 460px 40px 1fr;
+  grid-template-columns: 460px 1fr;
+  gap: 48px 40px;
+}
+@media (max-width: 1024px) {
+  .place__item {
+    -ms-grid-columns: 440px 1fr;
+    grid-template-columns: 440px 1fr;
+  }
+}
+@media (max-width: 767px) {
+  .place__item {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}

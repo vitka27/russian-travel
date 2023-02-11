@@ -1,9 +1,0 @@
-.place__website {
-  -ms-grid-row-align: end;
-      align-self: end;
-  -ms-grid-column: 2;
-      grid-column-start: 2;
-  -ms-grid-row: 1;
-      grid-row-start: 1;
-  margin: 0;
-}

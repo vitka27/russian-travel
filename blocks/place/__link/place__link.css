@@ -1,0 +1,10 @@
+.place__link {
+  text-decoration-line: underline;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 22px;
+  font-style: normal;
+  font-weight: 400;
+  /* identical to box height, or 122% */
+  color: inherit;
+}
