@@ -1,4 +1,5 @@
 .place__link {
+  text-decoration-line: underline;
   font-family: inherit;
   font-size: 18px;
   line-height: 22px;
