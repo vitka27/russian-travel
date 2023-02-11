@@ -1,0 +1,14 @@
+.place__container {
+  max-width: calc(100% - 296px);
+  width: 100%;
+}
+@media (max-width: 1024px) {
+  .place__container {
+    max-width: calc(100% - 96px);
+  }
+}
+@media (max-width: 767px) {
+  .place__container {
+    max-width: calc(100% - 48px);
+  }
+}

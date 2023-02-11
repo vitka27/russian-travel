@@ -1,0 +1,8 @@
+.photo-grid__container {
+  width: calc(100% - 96px);
+}
+@media (max-width: 767px) {
+  .photo-grid__container {
+    width: calc(100% - 32px);
+  }
+}

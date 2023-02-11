@@ -1,0 +1,4 @@
+.footer__container {
+  max-width: calc(100% - 96px);
+  width: 100%;
+}

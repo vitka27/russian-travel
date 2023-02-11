@@ -1,0 +1,16 @@
+.intro__title {
+  font-family: inherit;
+  font-size: 54px;
+  line-height: 58px;
+  font-style: normal;
+  font-weight: 900;
+  /* identical to box height, or 107% */
+  padding-bottom: 40px;
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

@@ -1,6 +1,0 @@
-.place__image {
-  -ms-grid-column: 1;
-      grid-column-start: 1;
-  max-width: 460px;
-  width: 100%;
-}
