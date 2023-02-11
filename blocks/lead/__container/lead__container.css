@@ -4,6 +4,11 @@
 }
 @media (max-width: 1024px) {
   .lead__container {
+    max-width: calc(100% - 48px * 2);
+  }
+}
+@media (max-width: 768px) {
+  .lead__container {
     max-width: 100%;
   }
 }

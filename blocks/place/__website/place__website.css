@@ -10,3 +10,9 @@
       -ms-flex-pack: end;
           justify-content: end;
 }
+@media (max-width: 340px) {
+  .place__website {
+    width: calc(100% - 16px * 2);
+    margin: auto;
+  }
+}

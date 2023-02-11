@@ -12,3 +12,8 @@
     max-width: calc(100% - 48px);
   }
 }
+@media (max-width: 340px) {
+  .place__container {
+    max-width: 100%;
+  }
+}

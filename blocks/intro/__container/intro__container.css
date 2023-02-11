@@ -2,6 +2,11 @@
   max-width: calc(100% - 292px);
   width: 100%;
 }
+@media (max-width: 1024px) {
+  .intro__container {
+    max-width: calc(100% - 48px * 2);
+  }
+}
 @media (max-width: 767px) {
   .intro__container {
     max-width: calc(100% - 32px);

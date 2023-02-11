@@ -17,5 +17,6 @@
   .place__item {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+    gap: 32px;
   }
 }

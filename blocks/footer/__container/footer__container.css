@@ -2,3 +2,9 @@
   max-width: calc(100% - 96px);
   width: 100%;
 }
+@media (max-width: 340px) {
+  .footer__container {
+    max-width: calc(100% - 16px * 2);
+    margin: auto;
+  }
+}

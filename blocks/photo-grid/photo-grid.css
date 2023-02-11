@@ -5,3 +5,8 @@
   gap: 16px;
   margin: auto;
 }
+@media (max-width: 767px) {
+  .photo-grid {
+    gap: 12px;
+  }
+}

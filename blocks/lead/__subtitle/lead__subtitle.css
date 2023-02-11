@@ -10,6 +10,11 @@
   margin: 0;
   max-width: 640px;
 }
+@media (max-width: 1024px) {
+  .lead__subtitle {
+    padding-bottom: 56px;
+  }
+}
 @media (max-width: 767px) {
   .lead__subtitle {
     max-width: 288px;
