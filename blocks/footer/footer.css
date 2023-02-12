@@ -1,4 +1,6 @@
 .footer {
+  max-width: calc(100% - 96px);
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,6 +11,12 @@
   padding-top: 92px;
   padding-bottom: 24px;
 }
+@media (max-width: 1024px) {
+  .footer {
+    max-width: calc(100% - 16px * 2);
+    margin: auto;
+  }
+}
 @media (max-width: 767px) {
   .footer {
     padding-top: 64px;
@@ -17,5 +25,11 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+@media (max-width: 340px) {
+  .footer {
+    max-width: calc(100% - 16px * 2);
+    margin: auto;
   }
 }

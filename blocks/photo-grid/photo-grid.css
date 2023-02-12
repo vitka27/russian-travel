@@ -1,12 +1,14 @@
 .photo-grid {
+  width: calc(100% - 48px * 2);
   display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
   margin: auto;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .photo-grid {
     gap: 12px;
+    width: calc(100% - 32px);
   }
 }

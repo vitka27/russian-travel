@@ -1,11 +1,23 @@
 .place {
+  max-width: calc(100% - 296px);
+  width: 100%;
   margin: auto;
   display: -ms-grid;
   display: grid;
   gap: 80px;
 }
+@media (max-width: 1024px) {
+  .place {
+    max-width: calc(100% - 32px);
+  }
+}
 @media (max-width: 767px) {
   .place {
     gap: 64px;
+  }
+}
+@media (max-width: 340px) {
+  .place {
+    max-width: 100%;
   }
 }

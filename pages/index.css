@@ -48,11 +48,11 @@
 @import url("../blocks/place/place.css");
 
 
-@import url("../blocks/cover/__container/cover__container.css");
+@import url("../blocks/cover/cover.css");
 @import url("../blocks/cover/__link/cover__link.css");
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");
 @import url("../blocks/cover/__title/cover__title.css");
-@import url("../blocks/cover/_bg/cover_bg.css");
+@import url("../blocks/cover/__image/cover__image.css");
 
 
 @import url("../blocks/footer/footer.css");
