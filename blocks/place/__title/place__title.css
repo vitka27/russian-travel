@@ -18,5 +18,8 @@
   .place__title {
     width: calc(100% - 16px * 2);
     margin: auto;
+    font-size: 35px;
+    line-height: 35px;
+
   }
 }

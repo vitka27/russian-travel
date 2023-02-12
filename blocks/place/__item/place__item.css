@@ -7,11 +7,11 @@
   grid-template-columns: 460px 1fr;
   gap: 48px 40px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .place__item {
-    -ms-grid-columns: 440px 1fr;
-    grid-template-columns: 440px 1fr;
-  }
+    -ms-grid-columns: minmax(340px, 1fr) 1fr;
+    grid-template-columns: minmax(340px, 1fr) 1fr;
+    gap: 48px 28px;
 }
 @media (max-width: 767px) {
   .place__item {

@@ -2,7 +2,7 @@
   width: calc(100% - 48px * 2);
   object-fit: cover;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .photo-grid__container {
     width: calc(100% - 32px);
   }
