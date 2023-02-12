@@ -7,7 +7,7 @@
     max-width: calc(100% - 48px * 2);
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .intro__container {
     max-width: calc(100% - 32px);
   }

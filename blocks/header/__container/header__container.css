@@ -1,8 +1,13 @@
 .header__container {
-  min-width: calc(100% - 96px);
+  max-width: calc(100% - 2 * 48px);
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .header__container {
-    min-width: calc(100% - 48px);
+    min-width: calc(100% - 2 * 24px);
+  }
+}
+@media (max-width: 340px) {
+  .header__container {
+    min-width: calc(100% - 2 * 16px);
   }
 }

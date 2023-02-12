@@ -4,14 +4,10 @@
 }
 @media (max-width: 1024px) {
   .place__container {
-    max-width: calc(100% - 96px);
+    max-width: calc(100% - 32px);
   }
 }
-@media (max-width: 767px) {
-  .place__container {
-    max-width: calc(100% - 48px);
-  }
-}
+
 @media (max-width: 340px) {
   .place__container {
     max-width: 100%;
