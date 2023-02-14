@@ -1,6 +1,7 @@
 .lead__images {
   position: relative;
   max-width: 984px;
+  margin: 0;
 }
 @media (max-width: 1024px) {
   .lead__images {
