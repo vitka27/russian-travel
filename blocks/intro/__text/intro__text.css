@@ -9,3 +9,13 @@
   margin: 0;
   padding-bottom: 33px;
 }
+@media (max-width: 768px) {
+  .intro__text {
+    max-width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .intro__text {
+    padding-bottom: 34px;
+  }
+}

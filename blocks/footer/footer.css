@@ -1,5 +1,5 @@
 .footer {
-  max-width: calc(100% - 96px);
+  max-width: calc(100% - 48px * 2);
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11,13 +11,14 @@
   padding-top: 92px;
   padding-bottom: 24px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .footer {
-    max-width: calc(100% - 16px * 2);
+    max-width: calc(100% - 24px * 2);
+    padding-top: 88px;
     margin: auto;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 400px) {
   .footer {
     padding-top: 64px;
     padding-bottom: 24px;
@@ -25,10 +26,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-}
-@media (max-width: 340px) {
-  .footer {
     max-width: calc(100% - 16px * 2);
     margin: auto;
   }

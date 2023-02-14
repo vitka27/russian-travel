@@ -1,13 +1,10 @@
 .cover {
-  max-width: calc(100% - 96px);
-  width: 100%;
-  margin: auto;
-  position: relative;
+  height: 100%;
 }
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .cover {
     max-width: 100%;
   }
-}
+} */
 
 

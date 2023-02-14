@@ -1,14 +1,14 @@
 .main {
   display: -ms-grid;
   display: grid;
-  row-gap: 90px;
+  row-gap: 92px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .main {
     row-gap: 88px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 320px) {
   .main {
     row-gap: 64px;
   }

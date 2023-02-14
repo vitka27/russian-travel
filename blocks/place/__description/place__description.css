@@ -1,5 +1,5 @@
 @media (max-width: 340px) {
-  .place__disc {
+  .place__description {
     width: calc(100% - 16px * 2);
     margin: auto;
   }

@@ -5,14 +5,11 @@
   -ms-grid-column: 1;
   grid-column: 1;
 }
-@media (max-width: 767px) {
+@media (max-width: 550px) {
   .place__image {
     -ms-grid-row: 3;
     grid-row: 3;
-  }
-}
-@media (max-width: 340px) {
-  .place__image {
     max-width: 100%;
+
   }
 }

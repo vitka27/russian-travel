@@ -1,5 +1,7 @@
 .lead {
-  padding: 0 calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024))) 0;
+  padding:  calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024))) ;
+  padding-top: 0;
+  padding-bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,4 +13,10 @@
       -ms-flex-align: center;
           align-items: center;
   margin: auto;
+}
+@media (min-width: 1281px) {
+  .lead {
+    padding: 0;
+    max-width: calc(100% - 2 * 148px);
+  }
 }
