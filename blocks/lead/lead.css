@@ -1,5 +1,5 @@
 .lead {
-  padding:  calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024))) ;
+  padding:  calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
   padding-top: 0;
   padding-bottom: 0;
   display: -webkit-box;
