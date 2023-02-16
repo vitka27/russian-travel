@@ -9,7 +9,5 @@
   .place__image {
     -ms-grid-row: 3;
     grid-row: 3;
-    max-width: 100%;
-
   }
 }
