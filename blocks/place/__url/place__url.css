@@ -10,8 +10,3 @@
   color: #aaaaaa;
   padding-bottom: 12px;
 }
-@media (max-width: 1024px) {
-  .place__url {
-    line-height: 12px;
-  }
-}

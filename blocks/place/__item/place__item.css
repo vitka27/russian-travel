@@ -21,7 +21,7 @@
     gap: 48px 28px;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 650px) {
   .place__item {
     width: 100%;
     -ms-grid-columns: 1fr;
